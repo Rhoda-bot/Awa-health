@@ -10,6 +10,7 @@ import SignIn from './components/auth/Signin'
 import ResetPassword from './components/auth/Resetpassword'
 import About from './pages/AboutPage'
 import Success from './components/auth/SuccessMsg'
+import Donate from './pages/DonatePage'
 
 const RootComponent: React.FC = () => {
     return (
@@ -21,6 +22,7 @@ const RootComponent: React.FC = () => {
                 <Route path={'/auth/sign-in'} element={<SignIn />} />
                 <Route path={'/auth/reset-password'} element={<ResetPassword />} />
                 <Route path={'/about'} element={<About />} />
+                <Route path={'/donate'} element={<Donate />} />
                 {/* <Route path={'/auth/sign-in'} element={<Success />} /> */}
                
             </Routes>
