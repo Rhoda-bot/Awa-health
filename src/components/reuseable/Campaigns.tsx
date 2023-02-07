@@ -171,7 +171,7 @@ function Campaigns() {
             </div>
             <div className="col-md-3 campaigns__col p-2 m-4">
               <div className="card p-2">
-                <img src="/assets/p3.png" className="card-img-top" alt="" />
+                <img src="/assets/p4.png" className="card-img-top" alt="" />
                 <div className="card-body">
                   <p className="mb-3">
                     Lorem ipsum dolor sit amet
@@ -184,7 +184,7 @@ function Campaigns() {
             </div>
             <div className="col-md-3 campaigns__col p-2 m-4">
               <div className="card p-2">
-                <img src="/assets/p3.png" className="card-img-top" alt="" />
+                <img src="/assets/p5.png" className="card-img-top" alt="" />
                 <div className="card-body">
                   <p className="mb-3">
                     Lorem ipsum dolor sit amet
