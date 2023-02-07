@@ -16,7 +16,7 @@ const ResetPassword = () => {
                                 <div className="col-md-12">
                                     <input type="text" className="form-control signup--input form-control-lg" placeholder="First name" aria-label="First name" />
                                 </div>
-                                <div className="col-md-12">
+                                <div className="col-md-12 mt-5">
                                     <button className="signup--btn">Sign In</button>
                                 </div>
                                 </div>

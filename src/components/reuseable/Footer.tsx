@@ -14,7 +14,7 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="col-md-4 align-items-center p-3">
-                            <h4>Contact</h4>
+                            <h4 className="mt-2">Contact</h4>
                                 <p><img src="/assets/vec.png" className="img-fluid mx-3" alt="" /> Lorem ipsum dolor sit amet</p>
                                 <p><img src="/assets/vec5.png" className="img-fluid mx-3" alt="" />Lorem ipsum dolor sit amet</p>
                         </div>

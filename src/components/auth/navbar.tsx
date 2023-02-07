@@ -5,7 +5,8 @@ const Navbar = () => {
         <>
         <nav className="navbar navbar-expand-lg bg-white border-bottom">
             <div className="container">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
+                  <img src="/assets/p1.png" alt="" />
                     <img src="/assets/logo.png" alt="" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 </ul>
                 <span className="navbar-text fw-3">
-                    Already have an account?  <b>Sign In</b> 
+                    Already have an account?  <b><a href="/auth/sign-in">Sign In</a></b> 
                 </span>
                 </div>
             </div>

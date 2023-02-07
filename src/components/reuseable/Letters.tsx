@@ -5,7 +5,7 @@ const Letters = () => {
             <div className="letters">
                 <div className="container">
                     <div className="row mx-auto justify-content-center letters__row">
-                        <h1 className="movement__text--title text-center">Latest News</h1>
+                        <h1 className="movement__text--title text-center">SignUp for News Letter</h1>
                             <div className="movement__text--line mx-auto" />
                                 <p>Lorem ipsum dolor sit amet consectetur. 
                                     Odio ultrices odio maecenas purus.Arcu sagittis 

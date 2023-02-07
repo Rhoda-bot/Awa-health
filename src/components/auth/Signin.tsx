@@ -21,7 +21,9 @@ const SignIn = () => {
                                 </div>
                                 <div className="col-md-6"></div>
                                 <div className="col-md-6 text-end">
-                                    <p>Forgot Password?</p>
+                                    <p style={{
+                                        color: 'orange'
+                                    }}>Forgot Password?</p>
                                 </div>
                                 <div className="col-md-12">
                                     <button className="signup--btn">Sign In</button>

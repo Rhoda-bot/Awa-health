@@ -62,10 +62,10 @@ function Campaigns() {
             </div>
           </div>
         </div>
-        <div className="row py-5 align-items-center">
+        <div className="row py-5 align-items-bottom">
           <h1 className="movement__text--title text-center">Our Volunteers</h1>
           <div className="movement__text--line mx-auto" />
-          <p className="volunteers--text">
+          <p className="volunteers--text text-white">
             Lorem ipsum dolor sit amet consectetur. Odio ultrices
             odio maecenas purus.Arcu sagittis in
             eleifend in blandit pretium dapibus ipsum.Quam id nullam quisque nibh suscipit.
@@ -90,15 +90,13 @@ function Campaigns() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="volunteers__video">
-              <video controls width={'100%'}>
-                <source />
-              </video>
+          <div className="col-md-6 mt-3 align-items-center justify-content-center mx-auto">
+            <div className="volunteers__video bg-white h-75  w-100">
+              {/* <img src="/assets/play.png" alt="" className='img-fluid'/> */}
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center py-4">
               <div className="col-md-4">
-                <div className="card border-0">
+                <div className=" border-0 ">
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="volunteers--img">
@@ -113,7 +111,7 @@ function Campaigns() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card border-0">
+                <div className="border-0">
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="volunteers--img">
@@ -128,7 +126,7 @@ function Campaigns() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card border-0">
+                <div className="border-0">
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="volunteers--img">
@@ -142,8 +140,8 @@ function Campaigns() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
-                <button type="button">Join as a Volunteer</button>
+              <div className="row justify-content-center mx-auto pt-3">
+                <button type="button" className='p-3 border-0 rounded'>Join as a Volunteer</button>
               </div>
             </div>
           </div>
@@ -151,7 +149,7 @@ function Campaigns() {
         <div className="row justify-content-center">
             <h1 className="movement__text--title text-center">Latest News</h1>
             <div className="movement__text--line mx-auto" />
-              <p>Lorem ipsum dolor sit amet consectetur. 
+              <p className='text-white'>Lorem ipsum dolor sit amet consectetur. 
                 Odio ultrices odio maecenas purus.Arcu sagittis 
                 in eleifend in blandit pretium dapibus ipsum.
                 Quam id nullam quisque nibh suscipit.
