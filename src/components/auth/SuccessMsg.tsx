@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../reuseable/Footer";
 import Navbar from "./navbar";
 
-const SuccessMsg = () => {
+const Success = () => {
    <>
     <Navbar />
      <div className="success">
@@ -19,4 +19,4 @@ const SuccessMsg = () => {
     <Footer />
    </>
 }
-export default SuccessMsg
+export default Success

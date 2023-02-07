@@ -2,7 +2,7 @@ import React from 'react';
 const Navbar = () => {
     return(
             <>
-               <nav className="navbar navbar-expand-lg bg-white shadow">
+               <nav className="navbar navbar-expand-lg bg-white border-bottom py-0">
                 <div className="container">
                     <a className="navbar-brand" href="/">
                         <img src="/assets/p1.png" alt="" />
@@ -16,16 +16,16 @@ const Navbar = () => {
                     </ul>
                     <div className="navbar-text">
                     <ul className="navbar-nav  mb-2 mb-lg-0">
-                          <li className="nav-item">
+                          <li className="nav-item mx-3">
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                           </li>
-                          <li className="nav-item">
+                          <li className="nav-item mx-3">
                               <a className="nav-link" href="/about">About</a>
                           </li>
-                        <li className="nav-item">
+                        <li className="nav-item mx-3">
                           <a className="nav-link">Donate</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item mx-3">
                           <a className="nav-link" href="/auth/sign-up">SignUp/SignIn</a>
                         </li>
                         <input type="text" placeholder='search' className="bar__menu--inp"/>

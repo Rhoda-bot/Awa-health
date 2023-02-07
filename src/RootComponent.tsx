@@ -8,7 +8,8 @@ import './styles/main.sass'
 import Signup from './components/auth/Signup'
 import SignIn from './components/auth/Signin'
 import ResetPassword from './components/auth/Resetpassword'
-import SuccessMsg from './components/auth/SuccessMsg'
+import About from './pages/AboutPage'
+import Success from './components/auth/SuccessMsg'
 
 const RootComponent: React.FC = () => {
     return (
@@ -19,7 +20,9 @@ const RootComponent: React.FC = () => {
                 <Route path={'/auth/sign-up'} element={<Signup />} />
                 <Route path={'/auth/sign-in'} element={<SignIn />} />
                 <Route path={'/auth/reset-password'} element={<ResetPassword />} />
-                {/* <Route path={'/auth/success'} element={<SuccessMsg/>} /> */}
+                <Route path={'/about'} element={<About />} />
+                {/* <Route path={'/auth/sign-in'} element={<Success />} /> */}
+               
             </Routes>
         </Router>
     )
