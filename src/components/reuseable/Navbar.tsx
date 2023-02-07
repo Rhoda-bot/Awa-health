@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     return(
             <>
@@ -17,16 +19,16 @@ const Navbar = () => {
                     <div className="navbar-text">
                     <ul className="navbar-nav  mb-2 mb-lg-0">
                           <li className="nav-item mx-3">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                           </li>
                           <li className="nav-item mx-3">
-                              <a className="nav-link" href="/about">About</a>
+                              <Link className="nav-link" to="/about">About</Link>
                           </li>
                         <li className="nav-item mx-3">
-                          <a className="nav-link">Donate</a>
+                          <Link className="nav-link"to="/donate" >Donate</Link>
                         </li>
                         <li className="nav-item mx-3">
-                          <a className="nav-link" href="/auth/sign-up">SignUp/SignIn</a>
+                          <Link className="nav-link" to="/auth/sign-up">SignUp/SignIn</Link>
                         </li>
                         <input type="text" placeholder='search' className="bar__menu--inp"/>
                     </ul>
