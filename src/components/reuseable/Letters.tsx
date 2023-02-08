@@ -2,7 +2,7 @@ import React from "react"
 const Letters = () => {
     return(
         <>
-            <div className="letters">
+            <div className="letters py-3">
                 <div className="container">
                     <div className="row mx-auto justify-content-center letters__row">
                         <h1 className="movement__text--title text-center">SignUp for News Letter</h1>

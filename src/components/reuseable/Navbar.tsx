@@ -28,6 +28,9 @@ const Navbar = () => {
                           <Link className="nav-link"to="/donate" >Donate</Link>
                         </li>
                         <li className="nav-item mx-3">
+                          <Link className="nav-link"to="/volunteers" >Volunteers</Link>
+                        </li>
+                        <li className="nav-item mx-3">
                           <Link className="nav-link" to="/auth/sign-up">SignUp/SignIn</Link>
                         </li>
                         <input type="text" placeholder='search' className="bar__menu--inp"/>
