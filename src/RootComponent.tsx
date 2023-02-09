@@ -11,6 +11,7 @@ import ResetPassword from './components/auth/Resetpassword'
 import About from './pages/AboutPage'
 import Donate from './pages/DonatePage'
 import Volunteers from './pages/VolunteersPage'
+import Search from './pages/SearchPage'
 
 
 const RootComponent: React.FC = () => {
@@ -25,6 +26,7 @@ const RootComponent: React.FC = () => {
                 <Route path={'/about'} element={<About />} />
                 <Route path={'/donate'} element={<Donate />} />
                 <Route path={'/volunteers'} element={<Volunteers />} />
+                <Route path={'/search'} element={<Search />} />
                 {/* <Route path={'/auth/success'} element={<SuccessMsg />} /> */}
                
             </Routes>

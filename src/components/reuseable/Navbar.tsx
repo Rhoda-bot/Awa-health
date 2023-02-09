@@ -1,7 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const handleSearch = () => {
+    navigate('/search');
+    console.log("hello");
+    
+  }
     return(
             <>
                <nav className="navbar navbar-expand-lg bg-white border-bottom py-0">
@@ -33,7 +39,7 @@ const Navbar = () => {
                         <li className="nav-item mx-3">
                           <Link className="nav-link" to="/auth/sign-up">SignUp/SignIn</Link>
                         </li>
-                        <input type="text" placeholder='search' className="bar__menu--inp"/>
+                        <input type="button" value='search' className="bar__menu--inp" onClick={handleSearch}/>
                     </ul>
                   </div>
                   </div>
