@@ -1,4 +1,5 @@
 import React from 'react';
+import Cards from './Cards';
 
 function Campaigns() {
   return (
@@ -8,60 +9,7 @@ function Campaigns() {
           <h1 className="movement__text--title text-center">Ongoing Campaigns</h1>
           <div className="movement__text--line mx-auto" />
         </div>
-        <div className="row">
-          <div className="col-md-3 campaigns__col">
-            <div className="card p-2">
-              <img src="/assets/p3.png" className="card-img-top" alt="" />
-              <div className="card-body">
-                <p className="mb-3">
-                  Lorem ipsum dolor sit amet
-                  consectetur.Odio ultrices odio maece
-                  nas purus.
-                </p>
-                <button type="button" className="campaigns__col--btn">Donate</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 campaigns__col">
-            <div className="card p-2">
-              <img src="/assets/p4.png" className="card-img-top" alt="" />
-              <div className="card-body">
-                <p className="mb-3">
-                  Lorem ipsum dolor sit amet
-                  consectetur.Odio ultrices odio maece
-                  nas purus.
-                </p>
-                <button type="button" className="campaigns__col--btn">Donate</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 campaigns__col">
-            <div className="card p-2">
-              <img src="/assets/p5.png" className="card-img-top" alt="" />
-              <div className="card-body">
-                <p className="mb-3">
-                  Lorem ipsum dolor sit amet
-                  consectetur.Odio ultrices odio maece
-                  nas purus.
-                </p>
-                <button type="button" className="campaigns__col--btn">Donate</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 campaigns__col">
-            <div className="card p-2">
-              <img src="/assets/p6.png" className="card-img-top" alt="" />
-              <div className="card-body">
-                <p className="mb-3">
-                  Lorem ipsum dolor sit amet
-                  consectetur.Odio ultrices odio maece
-                  nas purus.
-                </p>
-                <button type="button" className="campaigns__col--btn">Donate</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Cards />
         <div className="row py-5 align-items-bottom">
           <h1 className="movement__text--title text-center">Our Volunteers</h1>
           <div className="movement__text--line mx-auto" />

@@ -12,6 +12,9 @@ import About from './pages/AboutPage'
 import Donate from './pages/DonatePage'
 import Volunteers from './pages/VolunteersPage'
 import Search from './pages/SearchPage'
+import SearchDetails from './components/search/searchDetails'
+import Contact from './pages/contact'
+import Profile from './pages/ProfilePage'
 
 
 const RootComponent: React.FC = () => {
@@ -27,6 +30,9 @@ const RootComponent: React.FC = () => {
                 <Route path={'/donate'} element={<Donate />} />
                 <Route path={'/volunteers'} element={<Volunteers />} />
                 <Route path={'/search'} element={<Search />} />
+                <Route path={'/search/details'} element={<SearchDetails />} />
+                <Route path={'/contact'} element={<Contact />} />
+                <Route path={'/profile'} element={<Profile />} />
                 {/* <Route path={'/auth/success'} element={<SuccessMsg />} /> */}
                
             </Routes>
