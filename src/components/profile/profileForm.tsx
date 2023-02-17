@@ -5,14 +5,14 @@ const ProfileForm = () => {
         <>
             <div className="profileform py-5">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-md-3 p-4">
                             <div className="card border p-3 align-items-center">
                                 <img src="/assets/profile-img.png" className="img-fluid w-75" alt="" />
                             </div>
                         </div>
                         <div className="col-md-1"></div>
-                        <div className="col-md-8 py-4 border">
+                        <div className="col-md-8 py-4 border rounded">
                             <form className="py-3 mx-3">
                                 <div className="row">
                                     <div className="col-md-6 mb-4">

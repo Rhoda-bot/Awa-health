@@ -1,10 +1,11 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import DonatModal from "../modals"
 
 const Donations = () => {
     return(
         <>
-                    <div className="donation mt-2">
+                    <div className="donations mt-2">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4">
@@ -37,14 +38,16 @@ const Donations = () => {
                            </div>
                            <div className="col-md-9"></div>
                            <div className="col-md-3 align-items-end">
-                                <button  className="donations--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Donate</button>
+                                <button  className="donations--btn" data-bs-toggle="modal" type="button" data-bs-target="#exampleModal">
+                                    <Link to="/donate/thanks">Donate</Link>
+                                </button>
                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <DonatModal />
+        {/* <DonatModal /> */}
         </>
     )
 }

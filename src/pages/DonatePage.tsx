@@ -1,13 +1,13 @@
 import React from "react";
 import Donations from "../components/donate/danations";
+import BarMenu from "../components/reuseable/Bar";
 import Footer from "../components/reuseable/Footer";
 import Letters from "../components/reuseable/Letters";
-import Navbar from "../components/reuseable/Navbar";
 
 const Donate = () => {
     return(
         <>
-            <Navbar />
+            <BarMenu />
             <Donations />
             <Letters />
             <Footer />

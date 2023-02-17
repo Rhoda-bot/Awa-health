@@ -1,10 +1,18 @@
 .movement
     background-color: $black
     font-family: 'Poppins', sans-serif
+    &__row
+        justify-content: center
+        &--img
+            width: 75px
     &__text
         &--title
             color: $white
-            cursor: pointer
+            // cursor: pointer
+            font-size: 2.5rem
+            &:hover
+                text-decoration-line: underline
+                text-decoration-color: $white 
         &--line
             background-color: $black
             cursor: pointer
@@ -14,4 +22,4 @@
             &:hover
                 background-color: $white
         &--text
-            font-size: 20px        
+            font-size: 15px        

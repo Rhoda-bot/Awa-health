@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
-  const navigate = useNavigate();
+const BarMenu = () => {
+   const navigate = useNavigate();
   const handleSearch = () => {
     navigate('/search');
     console.log("hello");   
   }
     return(
-            <>
+        <>
                <nav className="navbar navbar-expand-lg bg-white border-bottom py-0">
                 <div className="container">
                     <a className="navbar-brand" href="/">
@@ -33,18 +33,20 @@ const Navbar = () => {
                           <Link className="nav-link nav__menu--link"to="/donate" >Donate</Link>
                         </li>
                         <li className="nav-item mx-2 nav__menu--item">
+                          <Link className="nav-link nav__menu--link" to="/profile">
+                            <img src="/assets/profile-img.png"  width={25} alt="" />
+                          </Link>
+                        </li>
+                        {/* <li className="nav-item mx-2 nav__menu--item">
                           <Link className="nav-link nav__menu--link"to="/volunteers" >Volunteers</Link>
-                        </li>
-                        <li className="nav-item mx-2 nav__menu--item">
-                          <Link className="nav-link nav__menu--link" to="/auth/sign-up">SignUp/SignIn</Link>
-                        </li>
+                        </li> */}
                         <input type="button" value='search' className="nav__menu--inp me-2 mb-2" onClick={handleSearch}/>
                     </ul>
                   </div>
                   </div>
               </div>
             </nav>
-            </>
+        </>
     )
 }
-export default Navbar;
+export default BarMenu;

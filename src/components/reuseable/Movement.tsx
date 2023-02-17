@@ -9,33 +9,35 @@ function Movement() {
             <h1 className="movement__text--title text-center">Join Our Movement</h1>
             <div className="movement__text--line mx-auto" />
           </div>
-          <div className="col-md-4 movement__col m-2 p-2">
-            <div className="card movement__col--card p-2">
-              <div className="img mx-auto">
-                <img src="/assets/ico.png" width={50} alt="" />
+        </div>
+        <div className="row justify-content-center g-3">
+          <div className="col-md-4 border-0 mx-3 px-3">
+              <div className="card">
+                <div className="card-body px-2">
+                  <div className="row movement__row">
+                    <img src="/assets/ico.png" alt="" className='movement__row--img'/>
+                  </div>
+                    <h3 className="card-title text-center">Donate</h3>
+                    <p className="movement__col--text text-sm-center text-md-start">
+                      Lorem ipsum dolor sit amet consectetur.
+                      Odio ultrices odio maecenas purus.
+                    </p>
+                </div>
               </div>
-              <div className="card-body">
-                <h3 className="card-title text-center">Donate</h3>
-                <p className="movement__col--text">
-                  Lorem ipsum dolor sit amet consectetur.
-                  Odio ultrices odio maecenas purus.
-                </p>
-              </div>
-            </div>
           </div>
-          <div className="col-md-4 movement__col m-2 p-2">
-            <div className="card movement__col--card p-2">
-              <div className="img mx-auto">
-                <img src="/assets/icon.png" width={50} alt="" />
-              </div>
-              <div className="card-body">
-                <h3 className="card-title text-center">Volunteer</h3>
-                <p className="movement__col--text">
-                  Lorem ipsum dolor sit amet consectetur.
-                  Odio ultrices odio maecenas purus.
-                </p>
-              </div>
-            </div>
+          <div className=" col-md-4 border-0 mx-3 px-3">
+             <div className="card">
+              <div className="card-body px-2">
+                  <div className="row movement__row">
+                    <img src="/assets/icon.png" alt="" className='movement__row--img'/>
+                  </div>
+                    <h3 className="card-title text-center">Volunteer</h3>
+                    <p className="movement__col--text text-sm-center text-md-start">
+                      Lorem ipsum dolor sit amet consectetur.
+                      Odio ultrices odio maecenas purus.
+                    </p>
+                </div>
+             </div>
           </div>
         </div>
         <div className="row py-5 mt-5 align-items-center">

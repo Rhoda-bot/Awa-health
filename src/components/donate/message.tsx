@@ -7,11 +7,13 @@ const DonateMsg = () => {
     return (
         <>
             <Navbar />
-            <div className="thanks">
-                <div className="container">
-                    <div className="row align-items-center justify-content-center mx-auto">
-                        <h1>Thank You for Donating</h1>
-                            <img src="/assets/vec2.png" className="img-fluid" alt="" />
+            <div className="thanks py-5">
+                <div className="container py-5">
+                    <div className="row align-items-center justify-content-center mx-auto text-center">
+                        <div className="col-md-8">
+                            <h1>Thank You for Donating</h1>
+                            <img src="/assets/vec7.png" width={50} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

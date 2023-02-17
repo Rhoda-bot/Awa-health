@@ -8,7 +8,7 @@ const Signup = () => {
             <div className="signup py-5">
                 <div className="container">
                     <div className="row justify-content-center mx-auto align-items-center text-center">
-                        <div className="col-md-8">
+                        <div className="col-md-6">
                             <h1 className="mb-5">Sign up</h1>
                             <form>
                             <div className="row g-4">
@@ -19,10 +19,10 @@ const Signup = () => {
                                     <input type="text" className="form-control signup--input form-control-lg" placeholder="Last name" aria-label="Last name" />
                                 </div>
                                 <div className="col-md-6">
-                                    <input type="text" className="form-control signup--input form-control-lg" placeholder="First name" aria-label="First name" />
+                                    <input type="text" className="form-control signup--input form-control-lg" placeholder="Email Address" aria-label="Email Address" />
                                 </div>
                                 <div className="col-md-6">
-                                    <input type="text" className="form-control signup--input form-control-lg" placeholder="Last name" aria-label="Last name" />
+                                    <input type="text" className="form-control signup--input form-control-lg" placeholder="Phone No" aria-label="Phone No" />
                                 </div>
                                 <div className="col-md-12">
                                     <textarea className="form-control signup--input form-control-lg" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: '100px'}}></textarea>

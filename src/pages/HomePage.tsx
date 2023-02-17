@@ -1,5 +1,4 @@
 import React from 'react'
-import DateDisplay from '../components/DateDisplay'
 import Banner from '../components/reuseable/Banner'
 import Navbar from '../components/reuseable/Navbar'
 import Movement from '../components/reuseable/Movement'
