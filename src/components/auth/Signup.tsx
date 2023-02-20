@@ -31,7 +31,12 @@ const Signup = () => {
                                     color: 'orange'
                                 }}>terms</b> and <b style={{
                                     color: 'orange'
-                                }}>conditions</b> <input type="checkbox" className="mt-1" name="check" id="" /></p>
+                                }}>conditions</b> <div className="form-check" >
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" />
+                                <span>
+                                    <label className="form-check-label" htmlFor="flexCheckIndeterminate" />
+                                </span>
+                            </div></p>
                                 <div className="col-md-12">
                                     <button className="signup--btn">Sign Up</button>
                                 </div>

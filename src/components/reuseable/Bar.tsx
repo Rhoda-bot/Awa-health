@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const BarMenu = () => {
    const navigate = useNavigate();
@@ -24,21 +24,21 @@ const BarMenu = () => {
                     <div className="navbar-text">
                     <ul className="navbar-nav nav__menu mb-2 mb-lg-0">
                           <li className="nav-item mx-2 nav__menu--item">
-                            <Link className="nav-link nav__menu--link active" aria-current="page" to="/">Home</Link>
+                            <NavLink className="nav-link nav__menu--link" aria-current="page" to="/">Home</NavLink>
                           </li>
                           <li className="nav-item mx-2 nav__menu--item">
-                              <Link className="nav-link nav__menu--link" to="/about">About</Link>
+                              <NavLink className="nav-link nav__menu--link" to="/about">About</NavLink>
                           </li>
                         <li className="nav-item mx-2 nav__menu--item">
-                          <Link className="nav-link nav__menu--link"to="/donate" >Donate</Link>
+                          <NavLink className="nav-link nav__menu--link"to="/donate" >Donate</NavLink>
                         </li>
                         <li className="nav-item mx-2 nav__menu--item">
-                          <Link className="nav-link nav__menu--link" to="/profile">
+                          <NavLink className="nav-link nav__menu--link" to="/profile">
                             <img src="/assets/profile-img.png"  width={25} alt="" />
-                          </Link>
+                          </NavLink>
                         </li>
                         {/* <li className="nav-item mx-2 nav__menu--item">
-                          <Link className="nav-link nav__menu--link"to="/volunteers" >Volunteers</Link>
+                          <NavLink className="nav-link nav__menu--link"to="/volunteers" >Volunteers</NavLink>
                         </li> */}
                         <input type="button" value='search' className="nav__menu--inp me-2 mb-2" onClick={handleSearch}/>
                     </ul>
