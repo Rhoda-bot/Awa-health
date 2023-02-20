@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/hr1.png"
+    },
+    {
+        "id": 2,
+        "image": "/assets/hr2.png"
+    },
+    {
+        "id": 3,
+        "image": "/assets/hr3.png"
+    },
+    {
+        "id": 4,
+        "image": "/assets/hr4.png"
+    }
+]
