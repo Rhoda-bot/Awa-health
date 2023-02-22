@@ -31,7 +31,6 @@ const SearchDetails = () => {
                                     consectetur.Odio ultrices odio maece
                                     nas purus.
                                     </p>
-                                    <div className="row">
                                         <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-label="Segment one" style={{
                                             width: '50%',
@@ -40,6 +39,7 @@ const SearchDetails = () => {
                                         <div className="progress-bar " role="progressbar" aria-label="Segment two" style={{width: '30%',
                                     backgroundColor: "#36B2BF"}} aria-valuenow={30} aria-valuemin={0} aria-valuemax={100}></div>                    
                                         </div>
+                                    <div className="row">
                                         <div className="col-md-6">
                                             $2000  raised
                                         </div>

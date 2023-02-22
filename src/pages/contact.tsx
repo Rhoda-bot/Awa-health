@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact py-5">
             <div className="container">
                 <div className="row justify-content-center mx-auto">
-                    <div className="col-md-10">
+                    <div className="col-md-6">
                         <h1>Contact Us</h1>
                             <p>We are happy to help you at anytime, or let us know
                             how we can help and  will get righy back
@@ -30,7 +30,7 @@ const Contact = () => {
                                         <span>Drop Enquity</span>
                                         <textarea name="" id="" className="form-control form-control-lg"></textarea>
                                     </div>
-                                    <div className="col-md-10"></div>
+                                    <div className="col-md-9"></div>
                                     <div className="col-md-2">
                                         <button className="searchdetails--btn px-4 py-3 rounded">submit</button>
                                     </div>

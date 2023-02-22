@@ -7,6 +7,7 @@ const CardList = () => {
                 <div className="container"> 
                     <div className="row justify-content-center">
                         <div className="col-md-5 p-3 mx-3">
+                                        
                             <div className="card p-3">
                                 <img src="/assets/p4.png" className="card-img-top" alt="" />
                                 <div className="card-body">
@@ -24,7 +25,6 @@ const CardList = () => {
                                     consectetur.Odio ultrices odio maece
                                     nas purus.
                                     </p>
-                                    <div className="row">
                                         <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-label="Segment one" style={{
                                             width: '50%',
@@ -33,6 +33,7 @@ const CardList = () => {
                                         <div className="progress-bar " role="progressbar" aria-label="Segment two" style={{width: '30%',
                                     backgroundColor: "#36B2BF"}} aria-valuenow={30} aria-valuemin={0} aria-valuemax={100}></div>                    
                                         </div>
+                                    <div className="row">
                                         <div className="col-md-6">
                                             $2000  raised
                                         </div>
@@ -67,7 +68,6 @@ const CardList = () => {
                                     consectetur.Odio ultrices odio maece
                                     nas purus.
                                     </p>
-                                    <div className="row">
                                         <div className="progress">
                                         <div className="progress-bar" role="progressbar" aria-label="Segment one" style={{
                                             width: '50%',
@@ -76,6 +76,7 @@ const CardList = () => {
                                         <div className="progress-bar " role="progressbar" aria-label="Segment two" style={{width: '30%',
                                     backgroundColor: "#36B2BF"}} aria-valuenow={30} aria-valuemin={0} aria-valuemax={100}></div>                    
                                         </div>
+                                    <div className="row">
                                         <div className="col-md-6">
                                             $2000  raised
                                         </div>
